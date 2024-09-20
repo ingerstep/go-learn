@@ -1,0 +1,6 @@
+go build
+./hello.exe
+go list -f '{{.Target}}'
+export PATH=$PATH:/c/Users/stepa/go/bin
+go env -w GOBIN=/c/Users/stepa/go/bin
+go install
