@@ -1,0 +1,5 @@
+mysql -u root -p
+create database recordings;
+use recordings;
+source ./create-tables.sql
+select * from album;
