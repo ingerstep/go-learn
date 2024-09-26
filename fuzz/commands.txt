@@ -1,0 +1,4 @@
+go test -fuzz=Fuzz
+go test
+go test -run=FuzzReverse/ac6733e1726c6863
+go test -fuzz=Fuzz -fuzztime 30s
